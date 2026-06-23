@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import darrow from '../../assets/darrow.png'
+import wra from '../../assets/wra.png'
 const Hero = () => {
   return (
     <div className='hero container'>
@@ -11,9 +11,10 @@ const Hero = () => {
 Our university is committed to providing quality education, encouraging creativity, and helping 
 students build successful careers. With experienced faculty, modern facilities, and a vibrant 
 learning environment, we prepare students to achieve their goals and become future leaders.</p>
-<button className='btn'>Explore More <br></br><img src={darrow} alt="" /></button>
+<button className='btn'>Explore More 
+  </button>
 
-
+<img src={wra} alt="" />
 
         </div>
       
