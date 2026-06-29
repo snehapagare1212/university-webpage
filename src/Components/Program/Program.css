@@ -4,6 +4,7 @@ width: 90%;
 display: flex;
 align-items: center;
 justify-content: space-between;
+
 } 
 
 .program img 
@@ -20,7 +21,8 @@ justify-content: space-between;
     
 }
 .caption 
-{border-radius: 10px;
+{
+    border-radius: 10px;
     width: 100%;
     position: absolute;
     top:0;
@@ -52,3 +54,4 @@ margin-bottom: 10px;
     padding-top: 0;
     
 }
+

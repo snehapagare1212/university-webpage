@@ -1,12 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
+import { useEffect } from 'react';
 
 const Navbar = () => {
-  return (
-    
+ const [bg,setbg]=useState(false);
+ 
+ useEffect(()=>{
+  window.addEventListener('scroll',()=>{
+window.scrollY > 500 ? setbg(true):setbg(false);
 
-        <nav className='container'>
+  })
+
+
+
+ },[]);
+ 
+  return (
+
+
+        <nav className={`container ${bg?'darknav':''}`}>
           <img src={logo} alt="" className='logo'/>
     <ul>
         <li>Home</li>

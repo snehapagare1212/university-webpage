@@ -29,3 +29,24 @@ justify-content: space-between;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.aboutR h3 
+{
+
+font-size: 56px;
+font-weight: 600px;
+margin-bottom: 10px;
+
+}
+
+.aboutR h2
+{
+
+font-size: 32px;
+
+
+}
+
+.aboutR p{
+
+    font-size: 20px;
+}
