@@ -16,8 +16,8 @@ box-sizing: border-box;
 .btn
 {
 border-radius: 30px;
-background-color: white;
-color: rgb(11, 11, 11);
+background-color: rgb(123, 123, 136);
+color: rgb(251, 249, 252);
 padding:  14px 25px;
 font-size: 16px;
 border: 0;
@@ -25,7 +25,7 @@ outline: 0;
 display: inline-flex;
 align-items: center;
 justify-self: center;
-
+margin-top: 10px;
 }
 
 .btn:hover{
