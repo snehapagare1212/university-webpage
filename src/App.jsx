@@ -7,6 +7,7 @@ import About from './Components/About/About'
 import Campus from './Components/Campus/Campus'
 import Testimony from './Components/Testimony/Testimony'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Title subtitle="Contact" title="Get in touch with us"/>
 
       <Contact/>
+      <Footer/>
       </div>
 
     </>

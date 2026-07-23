@@ -1,0 +1,18 @@
+.footer
+{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    margin-bottom: 30px;
+
+}
+
+.footer ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 20px; 
+}

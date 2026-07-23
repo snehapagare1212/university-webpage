@@ -8,17 +8,20 @@ box-sizing: border-box;
 
 }
 
+
+
 .container {
     padding-left: 10%;
     padding-right: 10%;
 }
 
+
 .btn
 {
-border-radius: 30px;
-background-color: rgb(123, 123, 136);
+border-radius: 17px;
+background-color: rgb(238, 185, 94);
 color: rgb(251, 249, 252);
-padding:  14px 25px;
+padding:  14px 35px;
 font-size: 16px;
 border: 0;
 outline: 0;
@@ -27,6 +30,7 @@ align-items: center;
 justify-self: center;
 margin-top: 10px;
 }
+
 
 .btn:hover{
     background-color: rgb(92, 144, 127);

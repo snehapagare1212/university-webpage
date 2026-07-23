@@ -2,14 +2,20 @@ import React from 'react'
 import './About.css'
 import fimg from '../../assets/about.png'
 import simg from '../../assets/playicon.png'
+import v from '../../assets/v.mp4'
 const About = () => {
   return (
     <div className='about'>
       <div className="aboutL">
         
-            <img src={fimg} alt='' className='fimage'/>
             
-         <img src={simg} alt='' className='simage'/>
+      <video 
+      className='vid'
+      src={v}
+      autoPlay 
+      muted
+      controls
+         />           
 
       </div>
       

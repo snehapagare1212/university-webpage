@@ -6,6 +6,32 @@ import ph from '../../assets/phoneicon.png'
 import loc from '../../assets/locationicon.png'
 
 const Contact = () => {
+const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "85abe93c-7381-4367-8bd1-8ee0fc3b9ff3");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
+
     return (
         <div className='contact'>
 
@@ -28,7 +54,7 @@ const Contact = () => {
             </div>
             <div className="contactcol">
 
-            <form action="">
+            <form onSubmit={onSubmit}>
                 <label>Name</label>
                 <input type='text' name="name" placeholder='Enter your name' required/>
 
@@ -38,12 +64,15 @@ const Contact = () => {
 
             <label>Email</label>
                 <input type='email' name="email" placeholder='Enter your email' required/>
-            </form>
+            
 
             
             <textarea className="tx" name='message' rows='6'cols='100'placeholder='Ask your queries'></textarea>
             <button type='submit' className='btn'>Submit</button>
+            </form>
+            <span>{result}</span>
             </div>
+            
         </div>
     )
 }
