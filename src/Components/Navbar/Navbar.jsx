@@ -29,8 +29,8 @@ window.scrollY > 500 ? setbg(true):setbg(false);
         <li><Link to='campus' smooth='true' offset={-250} duration={500}>Campus</Link></li>
         <li><Link to='testimony' smooth='true' offset={-250} duration={500}>Testimony</Link></li>
         <li><Link to='contact' smooth='true' offset={-250} duration={500}>Contact</Link></li>
-      <li><Link to='testimony' smooth='true' offset={-250} duration={500}><button className='btn'>Signup</button></Link></li>
-            <li><Link to='testimony' smooth='true' offset={-250} duration={500}><button className='btn'>Login</button></Link></li>
+      <li><a href='././Signup.html'><button className='btn'>Signup</button></a></li>
+            <li><a href='././Login.html'><button className='btn'>Login</button></a></li>
 
     </ul>
 

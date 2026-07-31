@@ -18,10 +18,11 @@ box-sizing: border-box;
 
 .btn
 {
-border-radius: 17px;
-background-color: rgb(238, 185, 94);
+border-radius: 10px;
+background-color: rgb(28, 14, 71);
 color: rgb(251, 249, 252);
-padding:  14px 35px;
+padding:  0 35px;
+height: 40px;
 font-size: 16px;
 border: 0;
 outline: 0;
@@ -33,7 +34,7 @@ margin-top: 10px;
 
 
 .btn:hover{
-    background-color: rgb(92, 144, 127);
+    background-color: rgb(8, 9, 9);
     color: white;
 }
 
