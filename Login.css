@@ -75,7 +75,7 @@ form input
 }
 
 .form-group label
-{   position: absolute ;
+{   position: absolute;
    
     left: 0;
    top:40%;
@@ -84,7 +84,7 @@ form input
     transition: 0.7s;
 }
 .form-group i
-{   position: absolute  ;
+{   position: absolute;
     
        top: 40%;
    transform: translateY(-50%);
