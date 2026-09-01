@@ -120,7 +120,6 @@ app.post("/login", (req, res) => {
 
 });
 
-// ================= SERVER =================
 
 app.listen(3000, "127.0.0.1", () => {
     console.log("Server running on http://127.0.0.1:3000");
