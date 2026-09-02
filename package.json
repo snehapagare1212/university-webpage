@@ -38,15 +38,16 @@
   "main": "eslint.config.js",
   "repository": {
   "type": "git",
-  "url": "git+https://github.com/snehapagare888-web/university-webpage.git"
+  "url": "git+https://github.com/Keerti-2023/university-webpage.git"
 },
+
 
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/snehapagare888-web/university-webpage.git/issues"
+    "url": "https://github.com/Keerti-2023/university-webpage.git/issues"
   },
-  "homepage": "https://snehapagare888-web.github.io/university-webpage/"
+  "homepage": "https://github.com/Keerti-2023/university-webpage"
 
 }
